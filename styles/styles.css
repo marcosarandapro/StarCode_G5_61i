@@ -7,7 +7,6 @@
 }
 
 body {
-    height: 100vh;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(to top, #3D2C8D 0%, #fbc2eb 100%);
 }
@@ -169,7 +168,15 @@ body {
         margin: 0;
     }
 }
-
+/*Footer*/
+.fa{
+    font-size:1.5vw;
+    padding:0 8px;
+    color: rgb(44, 53, 167);
+}
+.fa:hover, .fa:active{
+    color: rgb(211, 19, 183);
+}
 
 
 
