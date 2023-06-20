@@ -185,5 +185,14 @@ body {
     transform: scale(1.2);
 }
 
+.paginacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
 
-
+.buscador{
+    text-align: center;
+    margin-top: 20px;
+  }
