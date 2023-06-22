@@ -16,6 +16,15 @@ body {
     background-image: linear-gradient(to top, #fbc2eb 0%, #3D2C8D 100%);
 }
 
+/* Navbar Matías */
+.nav-enlace {
+    background: #e0e4e000;
+  
+ }
+.nav-enlace:hover {
+    background: #f1bf82;
+ }
+ 
 .login-container {
     height: 43.75em;
     width: 60em;
@@ -206,3 +215,7 @@ body {
   .btn {
     margin: 12px;
   }
+  
+
+
+ 
