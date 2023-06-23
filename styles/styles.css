@@ -20,11 +20,23 @@ body {
     background: #f1bf8200;}
 
 .nav-enlace:hover {
-        background: #f1bf82;
+        background: #f1bf82;}
     
  
-/* Slide*/
 
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+}
+
+.buscador{
+    text-align: center;
+    margin-top: 20px;
+  }
+ 
+ 
 
 .login-container {
     height: 43.75em;
@@ -205,7 +217,7 @@ body {
     transform: scale(1.2);
 }
 
-
+/* 
 
   .btn {
     margin: 12px;
@@ -214,19 +226,6 @@ body {
   .bg {
     background-color: #1e144b;
     background-attachment: fixed;
-  }
+  } */
 
   
-.paginacion{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
-}
-
-.buscador{
-    text-align: center;
-    margin-top: 20px;
-  }
- 
- 
