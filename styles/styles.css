@@ -21,7 +21,8 @@ body {
 
 .nav-enlace:hover {
         background: #f1bf82;
-        
+    
+ 
 .login-container {
     height: 43.75em;
     width: 60em;
@@ -201,6 +202,18 @@ body {
     transform: scale(1.2);
 }
 
+
+
+  .btn {
+    margin: 12px;
+  }
+
+  .bg {
+    background-color: #1e144b;
+    background-attachment: fixed;
+  }
+
+  
 .paginacion{
     display: flex;
     justify-content: center;
@@ -212,12 +225,5 @@ body {
     text-align: center;
     margin-top: 20px;
   }
-
-  .btn {
-    margin: 12px;
-  }
-
-  .bg {
-    background-color: #1e144b;
-    background-attachment: fixed;
-  }
+ 
+ 
