@@ -12,9 +12,10 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-image: linear-gradient(to top, #fbc2eb 0%, #3D2C8D 100%);
 }
+
 
 .login-container {
     height: 43.75em;
@@ -137,6 +138,10 @@ body {
     cursor: pointer;
 }
 
+.navbar-toggler {
+    background: #32246e;
+}
+
 
 @media screen and (max-width: 1000px) {
     .login-container {
@@ -205,4 +210,9 @@ body {
 
   .btn {
     margin: 12px;
+  }
+
+  .bg {
+    background-color: #1e144b;
+    background-attachment: fixed;
   }
