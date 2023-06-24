@@ -12,10 +12,81 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to top, #3D2C8D 0%, #fbc2eb 100%);
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(120deg, #C996CC 0%, #1C0C5B 100%);
 }
 
+/* Gabriel - Error 404 */
+h1 {
+    margin: 0px;
+}
+
+.error-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+.error-message__container {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+}
+p {
+    font-size: 18px;
+}
+
+.animated {
+animation-duration: 2,5s;
+animation-fill-mode: both;
+animation-iteration-count: infinite;
+}
+
+.Starcodeanimation {
+animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
+}
+
+@keyframes Starcodeanimation {
+0%,
+100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+}
+
+15% {
+    transform: translateX(-30px) rotate(6deg);
+}
+
+30% {
+    transform: translateX(15px) rotate(-6deg);
+}
+
+45% {
+    transform: translateX(-15px) rotate(3.6deg);
+}
+
+60% {
+    transform: translateX(9px) rotate(-2.4deg);
+}
+
+75% {
+    transform: translateX(-6px) rotate(1.2deg);
+}
+}
+
+/* body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(to top, #3D2C8D 0%, #fbc2eb 100%);
+} */
+
+/* CSS Loguin Gabriel */
 .login-container {
     height: 43.75em;
     width: 60em;
@@ -174,6 +245,18 @@ body {
         margin: 0;
     }
 }
+/* FIN CSS Loguin Gabriel */
+
+/* About US Marcos */
+.titulo{
+    margin-top: 150px;
+    width: 75%;
+}
+
+
+
+
+
 /*Footer*/
 .fa{
     font-size:1.5vw;
