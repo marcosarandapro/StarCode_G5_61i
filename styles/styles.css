@@ -9,6 +9,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 body {
@@ -253,7 +255,7 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
     width: 75%;
 }
 
-
+/*Contacto Gabriel*/
 
 
 
