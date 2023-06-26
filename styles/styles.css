@@ -303,3 +303,9 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
     text-align: center;
     margin-top: 20px;
   }
+
+.gale {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
