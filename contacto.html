@@ -50,53 +50,97 @@
                   >Home</a
                 >
               </li>
-              
+
               <li class="nav-item">
                 <a
                   class="nav-link active nav-enlace"
                   aria-current="page"
-                  href="./suscripcion.html" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-                  >Suscripción</a>
+                  href="./suscripcion.html"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                  >Suscripción</a
+                >
               </li>
-             <!-- Modal -->
-                    <div>                        
-                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="false" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                              <div class="modal-content">
-                                 
-                              
-                                <div class="modal-header">
-                                  <h1 class="modal-title fs-5" id="exampleModalLabel">Formulario de Suscripcion</h1>
-                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
+              <!-- Modal -->
+              <div>
+                <div
+                  class="modal fade"
+                  id="staticBackdrop"
+                  data-bs-backdrop="false"
+                  data-bs-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">
+                          Formulario de Suscripcion
+                        </h1>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Close"
+                        ></button>
+                      </div>
 
-                                <div class="modal-body">
-                                  <form>
-                                    <div class="mb-3">
-                                      <label for="recipient-name" class="col-form-label">Email:</label>
-                                      <input type="text" class="form-control" id="recipient-name">
-                                    </div>
-                                    <div class="mb-3">
-                                      <label for="recipient-name" class="col-form-label">Contraseña:</label>
-                                      <input type="password" class="form-control" id="recipient-name">
-                                    </div>
-                                    <div class="mb-3">
-                                      <label for="recipient-name" class="col-form-label">Repite tu contraseña:</label>
-                                      <input type="password" class="form-control" id="recipient-name">
-                                    </div>
-                                  </form>
-                                </div>
-
-                                <div class="modal-footer d-flex justify-content-center">
-                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
-                                  <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Enviar formulario</button>
-                                </div>
-
-                              </div> 
-
-                            </div>                           
+                      <div class="modal-body">
+                        <form>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label"
+                              >Email:</label
+                            >
+                            <input
+                              type="text"
+                              class="form-control"
+                              id="recipient-name"
+                            />
                           </div>
-                     </div> 
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label"
+                              >Contraseña:</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="recipient-name"
+                            />
+                          </div>
+                          <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label"
+                              >Repite tu contraseña:</label
+                            >
+                            <input
+                              type="password"
+                              class="form-control"
+                              id="recipient-name"
+                            />
+                          </div>
+                        </form>
+                      </div>
+
+                      <div class="modal-footer d-flex justify-content-center">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Salir
+                        </button>
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          data-bs-dismiss="modal"
+                        >
+                          Enviar formulario
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <li class="nav-item">
                 <a
                   class="nav-link active nav-enlace"
@@ -137,24 +181,39 @@
     </header>
 
     <main>
-
       <section>
         <div class="login-container">
           <div class="login-info-container">
             <h1 class="title mt-2 py-5">Contacto</h1>
-         
             <form class="inputs-container">
-                <input class="input" type="text" placeholder="Nombre de usuario (20)" maxlength="20">
-                <input class="input" type="text" placeholder="Contraseña (15)" maxlength="15">
-               
-                <button class="btn">Enviar consulta</button>
-                
+              <input
+                class="input"
+                type="text"
+                placeholder="Nombre de usuario (20)"
+                maxlength="20"
+              />
+              <textarea
+                placeholder="Mensaje"
+                class="field container w-100 h-50"
+                type="text"
+                maxlength="120"
+              ></textarea>
+              <button class="btn">Enviar consulta</button>
             </form>
           </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40966700.74127038!2d-70.98266601562513!3d51.193115244645874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dca599653da85d%3A0xfea7fd1151af2923!2sStar%20Plus!5e0!3m2!1ses-419!2sar!4v1687544588520!5m2!1ses-419!2sar" width="425" height="506" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-       </section>
-
+         
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40966700.74127038!2d-70.98266601562513!3d51.193115244645874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47dca599653da85d%3A0xfea7fd1151af2923!2sStar%20Plus!5e0!3m2!1ses-419!2sar!4v1687544588520!5m2!1ses-419!2sar"
+              width="425"
+              height="700"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          
+        </div>
+      </section>
     </main>
 
     <!--Footer-->
