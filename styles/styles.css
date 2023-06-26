@@ -261,7 +261,7 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
         margin: 0;
     }
 }
-/* FIN CSS Loguin Gabriel */
+/* FIN CSS Loguin*/
 
 /* About US Marcos */
 .titulo{
@@ -269,7 +269,71 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
     width: 75%;
 }
 
-/*Contacto Gabriel*/
+
+/*Nosotros*/
+.card1 {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(73, 69, 52, 0.4);
+    margin: 40px;
+}
+
+.card1 .content {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background: #e0aed9;
+}
+
+.card1 .content .img {
+    height: 50%;
+    margin-bottom: 20px;
+}
+
+.card1 .content .img img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card1 .content span {
+    position: absolute;
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(to left, #3D2C8D 50%, #fbc2eb 100%);
+    top: 285px;
+    left: 0px;
+}
+
+.card1 .content h4 {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(4, 1, 1, 0.883);
+    margin-bottom: 10px;
+}
+
+.card1 .content h6 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5e2066;
+    margin-bottom: 20px;
+}
+
+
+/*Fin Nosotros*/
 
 
 
