@@ -74,51 +74,85 @@
                   >Acerca de nosotros</a
                 >
               </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active nav-enlace"
+                  aria-current="page"
+                  href="./login.html"
+                  >Login</a
+                >
+              </li>
             </ul>
           </div>
         </div>
       </nav>    
       <!-- fin navbar-->
-    </header>
+       </header>
 
     <main>
-
+<h2 class="py-3">.</h2>
         <!--Carrousel Marcos-->
-        <section class="container-fluid py-0 border">
+        <section class="container-fluid py-2 slidefondo ">
           <div
             id="carouselExampleControls"
             class="carousel slide"
-            data-bs-ride="carousel"
-         
-          >
-            <div class="carousel-inner">
+            data-bs-ride="carousel"         
+          >          
+            <div class="carousel-inner ">
               <div class="carousel-item active">
+
                 <img
-                  src="./img/mision.jpg"
-                  class="d-block mx-auto w-25 img-fluid"
-                  alt="img1"
-                  width="720"
-                  height="480"
-                />
+                src="./img/780x1200-1.png"
+                class="d-block mx-auto w-25 img-fluid"
+                alt="img2"
+                width="780"
+                height="1200"
+              />
+                
               </div>
               <div class="carousel-item">
                 <img
-                  src="./img/AVATAR-2-4K.jpg"
+                  src="./img/780x1200-2.png"
                   class="d-block mx-auto w-25 img-fluid"
                   alt="img2"
-                  width="720"
-                  height="480"
+                  width="780"
+                  height="1200"
                 />
+                
+              </div>
+           
+              <div class="carousel-item">
+                <img
+                  src="./img/780x1200-3.png"
+                  class="d-block mx-auto w-25 img-fluid"
+                  alt="img2"
+                  width="780"
+                  height="1200"
+                />
+                
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  src="./img/780x1200-4.png"
+                  class="d-block mx-auto w-25 img-fluid"
+                  alt="img2"
+                  width="780"
+                  height="1200"
+                />
+                
               </div>
               <div class="carousel-item">
                 <img
-                  src="./img/megan-unrated-4k.jpg"
+                  src="./img/780x1200-5.png"
                   class="d-block mx-auto w-25 img-fluid"
-                  alt="img3"
-                  width="720"
-                  height="480"
+                  alt="img2"
+                  width="780"
+                  height="1200"
                 />
+                
               </div>
+
             </div>
             <button
               class="carousel-control-prev"
@@ -143,30 +177,71 @@
 
       <!--Columnas-->
       <section class="container-fluid">
-        <div class="d-flex flex-md-row flex-sm-column">
+        <div class="row">
           <!--Col Izquierda-->
-          <div class="p-3 border d-flex flex-column container col-sm-12 col-md-12 col-lg-10">
-            <div class="d-flex justify-content-center col-12">
-              <h2
-                class="text-black text-center text-decoration-underline subtitulo">
-                Estrenos recientes
-              </h2>
+          <div class="col-md-6 columna px-5 py-0">
+            <h2
+              class="text-black text-left text-decoration-underline py-5">
+              Estrenos recientes
+            </h2>
+
+            <div class="card mb-4 text-center text-black">
+              <img
+                src="./img/720x480-1.png"
+                class="card-img-top imagenblog"
+                alt="img1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">John Wick: Chapter 4</h5>
+                <p class="card-text">Sinopsis: ...</p>
+                <a href="./entrada1.html" class="btn btn-primary btn-lg"
+                  >Ver Más</a
+                >
+              </div>
             </div>
-            
-           
+
+            <div class="card mb-4 text-center text-black">
+              <img
+                src="./img/720x480-2.png"
+                class="card-img-top imagenblog"
+                alt="img1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Super Mario Bros: La Pelicula</h5>
+                <p class="card-text">Sinopsis: ...</p>
+                <a href="./entrada2.html" class="btn btn-primary btn-lg"
+                  >Ver Más</a
+                >
+              </div>
+            </div>
+
+            <div class="card mb-4 text-center text-black">
+              <img
+                src="./img/720x480-3.png"
+                class="card-img-top imagenblog"
+                alt="img1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Guardianes de la Galaxia Vol. 3</h5>
+                <p class="card-text">Sinopsis: ...</p>
+                <a href="./entrada3.html" class="btn btn-primary btn-lg"
+                  >Ver Más</a
+                >
+              </div>
+            </div>
 
            <!--Paginación -->
-          <section class="col-12">
+           <section>
             <nav aria-label="Page navigation example">
               <ul class="pagination centrar">
                 <li class="page-item">
-                  <a class="page-link" href="#">Anterior</a>
+                  <a class="page-link" href="./error404.html">Anterior</a>
                 </li>
-                <li class="page-item"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="./entrada1.html">1</a></li>
+                <li class="page-item"><a class="page-link" href="./entrada2.html">2</a></li>
+                <li class="page-item"><a class="page-link" href="./entrada3.html">3</a></li>
                 <li class="page-item">
-                  <a class="page-link" href="#">Siguiente</a>
+                  <a class="page-link" href="./error404.html">Siguiente</a>
                 </li>
               </ul>
             </nav>
@@ -175,14 +250,11 @@
           </div>
 
           <!--Col Derecha-->
+          <div class="col-md-6 columna px-5">
 
-          <div class="p-3 border d-flex flex-column container col-sm-12 col-md-12 col-lg-10">
-            <!--Buscador -->
-
-            <div class="row container-fluid">
-              <nav class="navbar row text-black">
-                <h2>Buscador</h2>
-
+            <!--Buscador -->          
+            <div class="row container-fluid py-5">
+              <nav class="navbar row text-black">                          
                 <form class="d-flex" role="search">
                   <input
                     class="form-control me-2"
@@ -198,46 +270,33 @@
             </div>
 
             <!--Categorias -->
-            <div class="row py-5">
-              <h2 class="text-black text-center text-decoration-underline">
-                Categorías de películas
-              </h2>
-              <table class="text-black">
-                <tr>
-                  <th>Categorías:</th>
-                </tr>
-                <tr>
-                  <td>Comedia</td>
-                </tr>
-                <tr>
-                  <td>Drama</td>
-                </tr>
-                <tr>
-                  <td>Acción</td>
-                </tr>
-                <tr>
-                  <td>Fantasía</td>
-                </tr>
-              </table>
+            <div class="row container-fluid">
+              <h2
+              class="text-black text-left text-decoration-underline">
+              Categorías
+            </h2>
+             
+              <ul>
+                <li>Comedia</li>
+                <li>Drama</li>
+                <li>Acción</li>
+                <li>Fantasía</li>
+              </ul>
             </div>
-
-            <!--Publicidad-->
+       
+          
+               <!--Publicidad -->
             <div class="container-fluid row">
               <h2
-                class="text-black text-center text-decoration-underline d-none d-md-block"
+                class="text-black text-left text-decoration-underline d-none d-md-block py-5"
               >
                 Espacio Publicitario
               </h2>
+              <iframe class="my-4justify-content-center  d-none d-md-block"  src="https://www.youtube.com/embed/6ZfuNTqbHE8" height="200" width="500" title="Iframe Example"></iframe>
 
-              <iframe
-                class="my-4 d-none justify-content-center d-md-block"
-                src="https://www.youtube.com/embed/6ZfuNTqbHE8"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
+             
             </div>
+
           </div>
         </div>
       </section>
@@ -248,7 +307,7 @@
       <div
         class="d-flex justify-content-center align-items-center col-lg-4 col-md-6 buttons p-2"
       >
-        <a href="#">
+        <a href="./index.html">
           <img
             class="p-3"
             src="./img/star.png"
@@ -257,7 +316,7 @@
             alt="Logo"
           />
         </a>
-      </div>
+        </div>
 
       <div
         class="d-flex align-items-center justify-content-center col-lg-4 col-md-6 buttons p-2"
@@ -307,24 +366,27 @@
           <a class="p-1" href="./index.html">
             <button class="btnF text-wrap text-center fa">Home</button>
           </a>
-          <a class="p-1" href="./loguin.html">
-            <button class="btnF text-wrap text-center fa">Login</button>
-          </a>
           <a class="p-1" href="./suscripcion.html">
             <button class="btnF text-wrap text-center fa">Suscripción</button>
           </a>
-        </div>
-        <div
-          class="d-flex flex-column justify-content-around align-items-center p-2">
           <a class="p-1" href="./galeria.html">
             <button class="btnF text-wrap fa">Galería de imagenes</button>
           </a>
+         
+        </div>
+        <div
+          class="d-flex flex-column justify-content-around align-items-center p-2">
+                 
           <a class="p-1" href="./contacto.html">
             <button class="btnF text-wrap text-center fa">Contacto</button>
           </a>
           <a class="p-1" href="./nosotros.html">
             <button class="btnF text-wrap text-center fa">Acerca de nosotros</button>
           </a>
+          <a class="p-1" href="./loguin.html">
+            <button class="btnF text-wrap text-center fa">Login</button>
+          </a>
+
         </div>
       </div>
     </footer>

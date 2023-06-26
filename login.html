@@ -17,10 +17,9 @@
     />
     <link rel="shortcut icon" href="./img/star.png" type="image/x-icon" />
     <!-- -->
-    <title>Contacto</title>
+    <title>Login</title>
   </head>
   <body>
-    
     <header>
       <!--Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -90,14 +89,60 @@
         <!-- fin navbar-->
          </header>
 
-
     <main>
-      
-      
+       <section>
+        <div class="login-container">
+          <div class="login-info-container">
+            <h1 class="title mt-2">Log In with </h1>
+            <div class="social-login mt-4">
+                <div class="social-login-element">
+                    <img src="img/Google png.png" alt="google-image">
+                    <span>Google</span>
+                </div>
+                <div class="social-login-element">
+                    <img src="img/Facebook png.webp" alt="facebook-image">
+                    <span>Facebook</span>
+                </div>
+            </div>
+            <p>o</p>
+            <form class="inputs-container">
+                <input class="input" type="text" placeholder="Nombre de usuario">
+                <input class="input" type="text" placeholder="Contraseña">
+                <section>
+                    <p>¿Olvido su contraseña? <span class="span" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Click aqui</span></p>
+                    <div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-3" id="staticBackdropLabel">ㅤ¿Como puedes recuperar tu cuenta?</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body"><hr>Al tocar el boton de "Entendido" usted sera redireccionado a otra pagina web donde tendra que colocar unos cuantos datos para que nuestro equipo se asegure que la cuenta le pertenece.
+                                        <hr>
+                                    </div>
+                                    <div class="modal-footer d-flex justify-content-center">
+                                        <button type="button" class="btn btn-primary"> Entendido, vamos a ello!</button>
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <button class="btn">login</button>
+                <p>¿No tienes una cuenta? <span class="span">Unete</span></p>
+            </form>
+          </div>
+            <img class="image-container" src="img/RyM_Icon.jpg" alt="">
+      </div>
+       </section>
+          
     </main>
 
-     <!--Footer-->
-     <footer class="container-fluid row bg-black m-auto p-4">
+    <!--Footer-->
+    <footer class="container-fluid row bg-black m-auto p-4">
       <div
         class="d-flex justify-content-center align-items-center col-lg-4 col-md-6 buttons p-2"
       >
