@@ -17,7 +17,12 @@
     height:50%
 }
 
+.nav-enlace {
+    background: #f1bf8200;}
 
+.nav-enlace:hover {
+        background: #f1bf82;}
+        
 body {
     margin: 0px;
     font-family: 'Quicksand', sans-serif;
