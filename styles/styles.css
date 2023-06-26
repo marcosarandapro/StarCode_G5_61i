@@ -33,7 +33,7 @@ body {
     background-color: #0f0633;
 }
 
-/* Gabriel - Error 404 */
+/* Error 404 */
 h1 {
     margin: 0px;
 }
@@ -630,7 +630,7 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
     margin-right: .5rem;
 }
 
-/* publicacion realizada */
+
 .publicacion-realizada {
     margin-bottom: 1.5rem;
 }
