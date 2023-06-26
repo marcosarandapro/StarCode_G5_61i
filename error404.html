@@ -21,31 +21,19 @@
   </head>
   <body>
     <header>
-      <!-- navbar nuevo-->
-      <section class="container-sm mb-5">
+      <!--Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <div class="container-fluid">
-            <a class="navbar-brand m-md-3 flex-shrink-0" href="./index.html">
-              <img src="./img/star.png" alt="" width="50" height="50" />
+            <a class="navbar-brand px-3" href="./index.html">
+              <img src="./img/star.png" alt="" width="40" height="40" />
+              Star Code 📽          
             </a>
-
-            <h2 class="d-none d-md-block m-md-3 text-black flex-shrink-0">
-              Star Code
-            </h2>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
+  
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
                 <li class="nav-item">
                   <a
                     class="nav-link active nav-enlace"
@@ -86,13 +74,21 @@
                     >Acerca de nosotros</a
                   >
                 </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active nav-enlace"
+                    aria-current="page"
+                    href="./login.html"
+                    >Login</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
-        </nav>
-      </section>
-      <!-- fin navbar-->
-    </header>
+        </nav>    
+        <!-- fin navbar-->
+         </header>
+
 
     <main>
         <!-- Error 404-->
@@ -110,7 +106,7 @@
       <div
         class="d-flex justify-content-center align-items-center col-lg-4 col-md-6 buttons p-2"
       >
-        <a href="#">
+        <a href="./index.html">
           <img
             class="p-3"
             src="./img/star.png"
@@ -119,7 +115,7 @@
             alt="Logo"
           />
         </a>
-      </div>
+        </div>
 
       <div
         class="d-flex align-items-center justify-content-center col-lg-4 col-md-6 buttons p-2"
@@ -169,27 +165,31 @@
           <a class="p-1" href="./index.html">
             <button class="btnF text-wrap text-center fa">Home</button>
           </a>
-          <a class="p-1" href="./login.html">
-            <button class="btnF text-wrap text-center fa">Login</button>
-          </a>
           <a class="p-1" href="./suscripcion.html">
             <button class="btnF text-wrap text-center fa">Suscripción</button>
           </a>
-        </div>
-        <div
-          class="d-flex flex-column justify-content-around align-items-center p-2">
           <a class="p-1" href="./galeria.html">
             <button class="btnF text-wrap fa">Galería de imagenes</button>
           </a>
-          <a class="p-1" href="./contacto">
+         
+        </div>
+        <div
+          class="d-flex flex-column justify-content-around align-items-center p-2">
+                 
+          <a class="p-1" href="./contacto.html">
             <button class="btnF text-wrap text-center fa">Contacto</button>
           </a>
           <a class="p-1" href="./nosotros.html">
             <button class="btnF text-wrap text-center fa">Acerca de nosotros</button>
           </a>
+          <a class="p-1" href="./loguin.html">
+            <button class="btnF text-wrap text-center fa">Login</button>
+          </a>
+
         </div>
       </div>
     </footer>
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

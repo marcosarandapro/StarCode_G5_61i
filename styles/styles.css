@@ -24,6 +24,10 @@ body {
     background-image: linear-gradient(120deg, #C996CC 0%, #1C0C5B 100%);
 }
 
+.slidefondo{
+    background-color: #0f0633;
+}
+
 /* Gabriel - Error 404 */
 h1 {
     margin: 0px;
