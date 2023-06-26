@@ -97,12 +97,8 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
 }
 }
 
-/* body {
-    font-family: 'Poppins', sans-serif;
-    background-image: linear-gradient(to top, #3D2C8D 0%, #fbc2eb 100%);
-} */
 
-/* CSS Loguin Gabriel */
+/*Loguin */
 .login-container {
     height: 43.75em;
     width: 60em;
@@ -263,7 +259,7 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
 }
 /* FIN CSS Loguin*/
 
-/* About US Marcos */
+/* About US  */
 .titulo{
     margin-top: 150px;
     width: 75%;
@@ -377,13 +373,14 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
     margin-top: 20px;
   }
 
+
 .gale {
     max-width: 100%;
     height: auto;
     width: auto;
 }
 
-
+/* Entradas */
 .contenedor-comentarios {
     display: flex;
     flex-wrap: wrap;
@@ -465,7 +462,6 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
     background-color: #4C6FA7;
 }
 
-/* fin */
 .contenedor-comentarios .comentario-principal-usuario .comentario,
 .area-comentar .inputs-comentarios {
     flex-grow: 1;
@@ -689,3 +685,5 @@ animation: Starcodeanimation 2.5s ease 1.5s 1 normal forwards;
     color: #309B76;
     transform: scale(1.4)
 }
+
+/* fin entradas */
